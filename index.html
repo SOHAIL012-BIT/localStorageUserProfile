@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Profile Using Local Storage</h2>
+   <center>
+    <div class="container">
+        <h2>User Profile</h2>
+        <form>
+            <div class="form-group">
+                <h3>Name:</h3>
+                <input type="text" name="fname" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <h3>Password:</h3>
+                <input type="password" name="pwd" id="password" placeholder=" Enter Password" required>
+            </div>
+            <div class="form-group">
+                <h3>Email:</h3>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <h3>Phone Number:</h3>
+                <input type="number" name="contact" id="contact" placeholder="Your Contact" required>
+            </div>
+            
+            
+        </form>
+        <button onclick="storeData()" >SUBMIT DATA</button>
+        <button onclick="displayData()">DISPLAY DATA</button>
+
+        <h2>MY INFO</h2>
+        <div id="display">
+            <!-- DISPLAY USERS DATA -->
+        </div>
+   </div>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>

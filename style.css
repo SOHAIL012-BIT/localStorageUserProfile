@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    align-items: center;
+}
+/* .container{
+    /* text-align: center; */
+    /* ; */
+input{
+    width: 500px;
+    border: solid 1px #eee;
+    padding: 15px 10px;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background: #fff;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
+    cursor: pointer;
+    transition:  all .38s ease-in-out;
+}
+button:hover{
+    background: dodgerblue;
+    color: #fff;
+}
